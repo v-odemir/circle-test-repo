@@ -1,0 +1,16 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Build an artifact
+          command: echo "Webhook test $(date)" >> example.txt
+      - store_artifacts:
+          path: example.txt
+workflows:
+  atlas_workflow:
+    jobs:
+      - build
