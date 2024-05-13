@@ -5,3 +5,10 @@ def greet():
 greet()
 
 print('Outside function')
+
+
+def greet(name):
+    print("Hello", name)
+
+# pass argument
+greet("John")
