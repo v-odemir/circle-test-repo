@@ -288,7 +288,7 @@ if __name__ == '__main__':
     fc = FrameCapture(file_path)
     fc.capture_frames()
 
- import csv
+import csv
 
 import requests
 
