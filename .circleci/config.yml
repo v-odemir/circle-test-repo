@@ -13,11 +13,4 @@ jobs:
 workflows:
   atlas_workflow:
     jobs:
-      - build:
-          filters:
-            tags:
-              only:
-                - /^v.*/
-            branches:
-              ignore:
-                - /.*/
+      - build
