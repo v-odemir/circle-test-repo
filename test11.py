@@ -237,3 +237,6 @@ class Move():
         
         def getDraftPrNewGithubLocal3(self, r, c):
                 return  self.colsToFiles[c] + self.rowsToRanks[r]
+        
+        def getDraftPrNewGithubLocal4(self, r, c):
+                return  self.colsToFiles[c] + self.rowsToRanks[r]
