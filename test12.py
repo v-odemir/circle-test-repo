@@ -221,3 +221,5 @@ class Move():
                 return  self.colsToFiles[c] + self.rowsToRanks[r]
         
         print("tesst")
+
+        print("test test test")
