@@ -222,3 +222,21 @@ class Move():
         
         def getDraftPrNew(self, r, c):
                 return  self.colsToFiles[c] + self.rowsToRanks[r]
+        
+        def getDraftPrNewGithub(self, r, c):
+                return  self.colsToFiles[c] + self.rowsToRanks[r]
+        
+        def getDraftPrNewGithubLocal(self, r, c):
+                return  self.colsToFiles[c] + self.rowsToRanks[r]
+        
+        def getDraftPrNewGithubLocal1(self, r, c):
+                return  self.colsToFiles[c] + self.rowsToRanks[r]
+        
+        def getDraftPrNewGithubLocal2(self, r, c):
+                return  self.colsToFiles[c] + self.rowsToRanks[r]
+        
+        def getDraftPrNewGithubLocal3(self, r, c):
+                return  self.colsToFiles[c] + self.rowsToRanks[r]
+        
+        def getDraftPrNewGithubLocal4(self, r, c):
+                return  self.colsToFiles[c] + self.rowsToRanks[r]
