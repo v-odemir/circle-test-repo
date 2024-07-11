@@ -1,5 +1,8 @@
 print("test")
 
+print("ISSUE-3")
+
+
 
 def _check_comments(self, code):
     lines = code.split('\n')
