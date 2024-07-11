@@ -1,6 +1,4 @@
 print("test")
-
-
 print("ISSUE-9")
 
 
