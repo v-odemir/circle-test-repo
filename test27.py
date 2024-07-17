@@ -2069,3 +2069,9 @@ class BaseEventLoop(events.AbstractEventLoop):
 
         if self.is_running():
             self.call_soon_threadsafe(self._set_coroutine_origin_tracking, enabled)
+
+    def test_function_4(self, enabled):
+        self._debug = enabled
+
+        if self.is_running():
+            self.call_soon_threadsafe(self._set_coroutine_origin_tracking, enabled)
