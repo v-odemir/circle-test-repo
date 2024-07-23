@@ -18,3 +18,5 @@ def analyze_python_code(self, code):
 
 
     print("ISSUE-6")
+
+print("##33 ISSUE-6")
