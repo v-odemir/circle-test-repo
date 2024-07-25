@@ -11,7 +11,7 @@ print("test-branch was here")
 
 print("test-branch was here2")
 
-print("dependabot")
+print("dependabot[bot]")
 
 
 
