@@ -1,0 +1,26 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "..."
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": []
+    },
+    "default": {
+        "requests": {
+            "version": "==2.25.1",
+            "hashes": [...]
+        },
+        "numpy": {
+            "version": "==1.21.0",
+            "hashes": [...]
+        }
+    },
+    "develop": {
+        "pytest": {
+            "version": "==6.2.4",
+            "hashes": [...]
+        }
+    }
+}
